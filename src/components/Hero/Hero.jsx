@@ -7,13 +7,13 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ada</h1>
+        <h1 className={styles.title}>Hi, I'm Jothi Lakshmanan</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
+          I'm a full-stack developer with 2 years of experience using Java Spring-boot, React and
           NodeJS. Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
+        <a href="https://drive.google.com/file/d/1jA-M7KunWhh7IwdJ2xxg_ugDDNRwm0SA/view?usp=drive_link" target="_blank" className={styles.contactBtn}>
+          Hier me
         </a>
       </div>
       <img

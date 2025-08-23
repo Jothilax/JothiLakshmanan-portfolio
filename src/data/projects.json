@@ -1,26 +1,35 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Car Rental System",
+    "imageSrc": "projects/carrentalsystem.png",
+    "description": "Developed a responsive and scalable car rental system using the MERN (MongoDB, Express.js, React.js, Node.js) stack , enabling seamless user experiences for booking and managing car rentals.",
+    "skills": ["React", "Express", "Node", "MongoDB", "Bootstrap"],
+    "demo": "https://carrentalsystemclient.onrender.com/",
+    "source": "https://github.com/Jothilax/CarRentalSystem"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Chat Application",
+    "imageSrc": "projects/chat.png",
+    "description": "Developed a real-time chat application using the MERN stack, offering seamless communication with modern features and Integrated WebSocket (Socket.IO) for instant communication.",
+    "skills": ["React", "Express", "Node", "MongoDB" ,"Socket.io", "TailwindCSS"],
+    "demo": "https://chatapplicationweb-6nvr.onrender.com/",
+    "source": "https://github.com/Jothilax/ChatApplication"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Weather Application",
+    "imageSrc": "projects/weather.png",
+    "description": "Designed and developed a comprehensive weather application utilizing JavaScript and OpenWeatherMap API to provide users with accurate, real-time weather forecasts for any location.",
+    "skills": ["React", "TailwindCSS", "OpenWeatherApi", "Javascript"],
+    "demo": "https://weather-application-current-weather-t.netlify.app/",
+    "source": "https://github.com/Jothilax/WeatherApplication"
+  },
+  
+  {
+    "title": "Baby shop",
+    "imageSrc": "projects/babyshop.png",
+    "description": "Designed a modern e-commerce front-end for a baby shop using HTML, CSS, and Bootstrap, Landing Page, Product Catalog.",
+    "skills": ["HTML", "CSS", "Bootstrap"],
+    "demo": "https://jothilax.github.io/Babyshop/",
+    "source": "https://github.com/Jothilax/Babyshop"
   }
 ]

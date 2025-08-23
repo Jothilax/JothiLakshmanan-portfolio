@@ -8,10 +8,13 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  max-height: 650px;
 }
 
 .image {
   margin-bottom: 26px;
+  width: auto;
+  height: 200px;
 }
 
 .title {
@@ -23,6 +26,16 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+    display: -webkit-box;
+  
+    -webkit-box-orient: vertical;
+  
+    overflow: hidden;
+  
+    text-overflow: ellipsis;
+  
+    -webkit-line-clamp: 5; /* Set to the desired number of lines (here, 5) */
+ 
 }
 
 .skills {
@@ -36,7 +49,7 @@
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
@@ -53,7 +66,7 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
