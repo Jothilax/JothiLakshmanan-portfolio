@@ -12,12 +12,46 @@ export const Hero = () => {
           I'm a full-stack developer with 2 years of experience using Java Spring-boot, React and
           NodeJS. Reach out if you'd like to learn more!
         </p>
-        <a href="https://drive.google.com/file/d/1jA-M7KunWhh7IwdJ2xxg_ugDDNRwm0SA/view?usp=drive_link" target="_blank" className={styles.contactBtn}>
-          Hier me
+ <div className={styles.socialLinks}>
+        <a href="https://drive.google.com/file/d/1B3SVn7BGTmgBppwR-gZSjH7UBrJSJARn/view" target="_blank" className={styles.contactBtn}>
+          Download CV
         </a>
+        {/* <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" onClick={"https://www.linkedin.com/in/jothi-lakshmanan"}/>
+                    <a href="https://www.linkedin.com/in/jothi-lakshmanan" target="_blank"  rel="noopener noreferrer">www.linkedin.com/in/jothi-lakshmanan</a>
+
+                    <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+                              <a href="https://github.com/Jothilax?tab=repositories" target="_blank"  rel="noopener noreferrer">https://github.com/Jothilax?tab=repositories</a>
+ */}
+
+        {/* LinkedIn */}
+       
+          <a
+            href="https://www.linkedin.com/in/jothi-lakshmanan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/linkedinIcon.png")}
+              alt="LinkedIn"
+            />
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/Jothilax"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt="GitHub"
+            />
+          </a>
+        </div>
+
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/hero3.jpeg")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

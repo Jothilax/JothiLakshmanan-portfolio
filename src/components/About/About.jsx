@@ -13,7 +13,15 @@ export const About = () => {
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
-        <ul className={styles.aboutItems}>
+        <p className={styles.description}>
+  I am a passionate Full Stack Developer and Freelancer with 2+ years of experience 
+  building scalable web applications using Java Spring Boot, React, Node.js, and MongoDB. 
+  I specialize in developing end-to-end solutions — from designing responsive user 
+  interfaces to building secure backend APIs and deploying production-ready applications. 
+  I enjoy solving real-world problems, optimizing performance, and delivering clean, 
+  maintainable code that helps businesses grow digitally.
+</p>
+        {/* <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
@@ -44,7 +52,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );

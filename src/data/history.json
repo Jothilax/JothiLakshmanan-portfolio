@@ -1,10 +1,41 @@
 [
+    {
+    "role": "Software Developer",
+    "organisation": "LAM Linen And More India Private Limited",
+    "startDate": "Dec, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Developing and maintaining full-stack web applications using the MERN stack",
+      "Designing responsive and user-friendly interfaces",
+      "Building RESTful APIs and integrating third-party services",
+      "Collaborating with cross-functional teams for feature enhancements and deployments"
+    ],
+    "imageSrc": "history/lamlogo.png"
+  },
+  {
+    "role": "Software Developer",
+    "organisation": "Xtown Solutions",
+    "startDate": "Sept, 2025",
+    "endDate": "Dec, 2025",
+    "experiences": [
+      "Developed dynamic web applications using MongoDB, Express.js, React.js, and Node.js",
+      "Created reusable UI components to improve development efficiency",
+      "Implemented authentication and authorization using JWT",
+      "Participated in debugging, testing, and performance optimization"
+    ],
+    "imageSrc": "history/Xtown.png"
+  },
   {
     "role": "MERN Stack Developer Intern",
     "organisation": "CodTech",
     "startDate": "Jan, 2025",
-    "endDate": "Present",
-    "experiences": ["Working on MERN stack projects", "Responsive websites"],
+    "endDate": "March, 2025",
+    "experiences": [
+      "Assisted in developing full-stack applications using the MERN stack",
+      "Built responsive layouts using React and modern CSS",
+      "Integrated backend APIs with frontend components",
+      "Gained hands-on experience in Git version control and team collaboration"
+    ],
     "imageSrc": "history/codtech.jpeg"
   },
   {
@@ -12,8 +43,12 @@
     "organisation": "Dataspire Technologies Pvt Ltd",
     "startDate": "Mar, 2022",
     "endDate": "Dec, 2023",
-    "experiences": ["Worked as backend developer", "Wrote API and manual testing"],
+    "experiences": [
+      "Developed and maintained backend services using Java and MySQL",
+      "Designed and implemented REST APIs",
+      "Performed manual testing and API validation using Postman",
+      "Worked closely with frontend teams to ensure smooth integration"
+    ],
     "imageSrc": "history/dataspire.png"
   }
-  
 ]

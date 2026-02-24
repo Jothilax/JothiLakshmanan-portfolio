@@ -30,9 +30,22 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
-  },{
+  },
+  {
     "title": "MySQL",
     "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "JAVA",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Spring-Boot",
+    "imageSrc": "skills/springboot.png"
+  },
+   {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
   }
   
 ]

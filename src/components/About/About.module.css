@@ -36,6 +36,28 @@
   gap: 50px;
 }
 
+.description {
+   font-size: 25px;
+   color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.description:hover {
+  background-size: 100% 100%;
+}
+
 .aboutItem {
   display: flex;
   flex-direction: row;
