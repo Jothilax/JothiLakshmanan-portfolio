@@ -47,7 +47,13 @@ export const Hero = () => {
               alt="GitHub"
             />
           </a>
-        </div>
+
+      {/* Mail */}  
+       <a href="mailto:jothilakshmi2162000@gmail.com">
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          </a>
+
+     </div>
 
       </div>
       <img

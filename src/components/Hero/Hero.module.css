@@ -17,6 +17,7 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  padding-right: 5%;
 }
 
 .title {

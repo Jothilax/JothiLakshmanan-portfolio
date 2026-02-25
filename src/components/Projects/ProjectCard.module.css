@@ -24,8 +24,8 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 200;
     display: -webkit-box;
   
     -webkit-box-orient: vertical;
@@ -34,7 +34,7 @@
   
     text-overflow: ellipsis;
   
-    -webkit-line-clamp: 5; /* Set to the desired number of lines (here, 5) */
+    -webkit-line-clamp: 10; /* Set to the desired number of lines (here, 5) */
  
 }
 
